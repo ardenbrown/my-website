@@ -144,18 +144,6 @@ h3 {
   font-size: 0.95rem;
 }
 
-.sample-work {
-  background: #f9fbff;
-  border: 1px dashed #bad0f7;
-  border-radius: 12px;
-  margin-top: 0.9rem;
-  padding: 0.85rem 1rem;
-}
-
-.sample-work h4 {
-  margin: 0 0 0.35rem;
-}
-
 .note {
   color: #32445f;
   font-size: 0.95rem;
