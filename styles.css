@@ -1,0 +1,193 @@
+:root {
+  --bg: #f6f8fc;
+  --card: #ffffff;
+  --text: #17212f;
+  --muted: #5a687a;
+  --brand: #1347a6;
+  --accent: #2c7be5;
+  --border: #dbe4f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0d2f6c, #1347a6 55%, #2c7be5);
+  color: #fff;
+  padding: 1rem 1.5rem 4rem;
+}
+
+.nav {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero-content {
+  max-width: 980px;
+  margin: 3rem auto 0;
+}
+
+.eyebrow {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  opacity: 0.9;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin: 0.2rem 0;
+}
+
+.subtitle {
+  max-width: 720px;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.75rem 1.25rem;
+  margin-top: 0.6rem;
+}
+
+main {
+  max-width: 980px;
+  margin: -2rem auto 0;
+  padding: 0 1.2rem 2rem;
+}
+
+.section {
+  margin: 1rem 0 1.2rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.1rem 1.25rem;
+  box-shadow: 0 8px 22px rgba(17, 38, 79, 0.08);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.role,
+.meta {
+  margin: 0;
+}
+
+.role {
+  color: var(--brand);
+  font-weight: 600;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.experience-item {
+  margin-bottom: 1rem;
+}
+
+.experience-item ul {
+  margin: 0.75rem 0 0;
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pill-list li {
+  background: #eef4ff;
+  color: #143a77;
+  border: 1px solid #c9dafc;
+  border-radius: 999px;
+  padding: 0.42rem 0.8rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.sample-work {
+  background: #f9fbff;
+  border: 1px dashed #bad0f7;
+  border-radius: 12px;
+  margin-top: 0.9rem;
+  padding: 0.85rem 1rem;
+}
+
+.sample-work h4 {
+  margin: 0 0 0.35rem;
+}
+
+.note {
+  color: #32445f;
+  font-size: 0.95rem;
+  margin: 0 0 0.35rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin: 0.3rem 0;
+}
+
+.contact-list a {
+  color: var(--accent);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: var(--muted);
+}
+
+@media (max-width: 680px) {
+  .nav {
+    justify-content: center;
+  }
+
+  main {
+    margin-top: -1.3rem;
+  }
+}
